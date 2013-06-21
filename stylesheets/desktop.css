@@ -26,9 +26,30 @@ h1, h2, h3, h4 {
   font-weight: 800;
 }
 
+h3 {
+  color: #991139;
+  font-family: 'Raleway' sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+h3 i {
+  color: #11976B;
+}
+
+a {
+  color: #991139;
+  text-decoration: none;
+}
+
+button, textarea {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
 [class^='pure-u-'] { padding: 0 10px; }
 [class^='pure-u-']:first-child { padding-left: 0; }
 [class^='pure-u-']:last-child { padding-right: 0; }
+.pure-button-primary { background-color: #991139; }
 
 .short {
   display: none;
@@ -82,22 +103,6 @@ h1, h2, h3, h4 {
 }
 
 
-h3 {
-  color: #991139;
-  font-family: 'Raleway' sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-}
-
-h3 i {
-  color: #11976B;
-}
-
-a {
-  color: #991139;
-  text-decoration: none;
-}
-
 p.intro {
   font-size: 24px;
   font-style: italic;
@@ -124,6 +129,12 @@ p.intro {
 
 .event-time {
   text-transform: none;
+}
+
+.event-rsvp {
+  border: none;
+  height: 500px;
+  width: 100%;
 }
 
 .members-list {

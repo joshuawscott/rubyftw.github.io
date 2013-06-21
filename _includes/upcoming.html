@@ -6,7 +6,7 @@
   </div>
   <div class="event-title">
     {% if event.link %}
-      <a href="{{ event.link }}">{{ event.title }}</a>
+      <a href="{{ event.url }}">{{ event.title }}</a>
     {% else %}
       {{ event.title }}
     {% endif %}

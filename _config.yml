@@ -1,1 +1,2 @@
 exclude: ["vendor"]
+url: http://rubyftw.dev:4000
